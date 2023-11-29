@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*===================================================
+                 Common css End  
+======================================================*/
+
+/* SOCIAL */
+.srote_del ul li a {
+    background: rgb(0, 0, 0) !important;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffff;
+}
+
+.srote_del {
+    padding-top: 20px;
+}
+
+
+.srote_del ul {
+    float: right;
+}
+
+.srote_del ul li {
+    padding: 0 5px;
+}
+
+/* ############## SHOP DETALIS PART START */
+
+#shop_del_part {
+    padding-top: 5rem;
+}
+
+.shop-del h3 {
+    border-bottom: 1px solid #a49b9b;
+    padding-bottom: 40px;
+    font-weight: 400;
+
+}
+
+.shop-del span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.size_and-other {
+    padding-top: 20px;
+}
+
+.size_and-other span {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-left: 8px;
+}
+
+.size_and-other ul li {
+    margin: 15px 7px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #a49b9b;
+    cursor: pointer;
+}
+
+.size_and-other ul li:hover {
+    border: 2px solid #000;
+}
+
+
+.dot-online {
+    padding: 7px 7px 8px 21px;
+}
+
+.dot-online span {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(4, 229, 4);
+    margin: -23px 0px 0px 7px;
+}
+
+.ck {
+    padding: 18px 0px 0px 31px;
+}
+
+.ck label {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 50%;
+}
+
+.form-check-input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check-input {
+    border: var(--bs-border-width) solid #000000;
+}
+
+.bt a {
+    padding: 9px 111px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #222020;
+    letter-spacing: 3px;
+    transition: all linear .2s;
+    color: #222020;
+}
+
+.bt a:hover {
+    background: #000;
+    color: #ffff;
+}
+
+.bt-2 a {
+    padding: 0px 103px;
+    font-weight: 700;
+    line-height: 27px;
+    font-size: 16px;
+    border: 1px solid #222020;
+    background: #000;
+    color: #ffff;
+}
+
+.btn {
+    color: #000000 !important;
+    border: 1px solid #000 !important;
+    margin: 16px 8px !important;
+    border-radius: 0px;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    background-color: #ffff;
+    border: 2px solid #000 !important;
+}
+
+/* FOOTER */
+#footer-part {
+    margin-top: 60px;
+}
+
+/* ############## SHOP DETALIS PART END */
+
+
+
+
+
+/* ##############  HOME RESPONSIVE START ############## */
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .shop_del_img{
+        text-align: center;
+    }
+    .shop-del{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .bt a {
+        padding: 6px 130px;
+    }
+    .bt-2 a {
+        padding: 0px 121px;
+    }
+    .size_and-other{
+        text-align: center;
+    }
+    .dot-online span {
+        margin-left: -56px;
+    }
+    .dot {
+        margin: -23px 0px 0px 194px;
+    }
+    .ck label {
+        margin-left: -159px;
+    }
+    .ck {
+        padding: 18px 0px 0px 215px;
+    }
+}
+
+
+
+@media (max-width: 430.992px) {
+    .shop_del_img{
+        text-align: center;
+    }
+    .shop-del{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .bt a {
+        padding: 6px 130px;
+    }
+    .bt-2 a {
+        padding: 0px 121px;
+    }
+}
+
+
+
+@media (max-width: 393.852px) {
+    .shop_del_img{
+        text-align: center;
+    }
+    .shop-del{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .bt a {
+        padding: 6px 104px;
+    }
+    .bt-2 a {
+        padding: 0px 95px;
+    }
+}
+
+
+/* ##############  HOME RESPONSIVE START END ############## */

@@ -1,0 +1,523 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*===================================================
+                 Common css End  
+  ======================================================*/
+
+
+
+
+
+/* ############## LOGO-SOCIAL CSS START ############## */
+.social_icon {
+    padding-top: 20px;
+}
+
+.social_icon ul li a {
+    background: rgb(199, 16, 16);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffff;
+
+}
+
+.social_icon ul {
+    float: right;
+}
+
+.social_icon ul li {
+    padding: 0 5px;
+}
+
+.logo-img a {
+    transform: translate(33rem, 2rem);
+}
+
+.logo-img a img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: -20px;
+}
+
+
+
+/* ############## LOGO-SOCIAL CSS END ############## */
+
+
+
+
+/* ##############  NAVBER CSS START ############## */
+
+/* #navbar {
+    padding-top: 12rem;
+} */
+
+#navbar ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear .2s;
+}
+
+#navbar span a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4d4c4c;
+    transition: all linear .2s;
+}
+
+#navbar span a:hover {
+    color: #000000;
+}
+
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #000000;
+}
+
+/* ##############  NAVBER CSS END ############## */
+
+
+/* ##############  BANNER CSS START ############## */
+#banner-part {
+    padding-bottom: 30px;
+}
+
+.W img {
+    width: 400px;
+    height: 400px;
+}
+
+/* ##############  BANNER CSS END ############## */
+
+
+
+
+/* ##############  FOOTER CSS START ############## */
+#footer-part {
+    padding: 26px 0;
+    background: #000000;
+}
+
+.footer-text p {
+    color: #f1f1f1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-img {
+    position: relative;
+}
+
+.footer-side-img {
+    position: absolute;
+    right: 267px;
+    top: -38px;
+}
+
+
+
+
+/* ##############  FOOTER CSS END ############## */
+
+
+
+/* ##############  HOME RESPONSIVE START ############## */
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo-img a {
+        transform: translate(6rem, 1rem);
+    }
+
+    #navbar {
+        position: absolute;
+        left: 5px;
+        top: 197px;
+        z-index: 9999;
+    }
+
+    #navbarText {
+        background-color: #ffffff;
+        padding: 28px 20px;
+    }
+    .navbar-text {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: var(--bs-navbar-color);
+        padding-left: 32rem !important;
+    }
+
+    .logo-img a img {
+        width: 718px;
+        height: 126px;
+        margin-bottom: 50%;
+    }
+    #navbar ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: all linear .2s;
+    }
+
+    .navbar-text {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        color: var(--bs-navbar-color);
+        padding-left: 135px;
+    }
+
+    #banner-part {
+        padding-bottom: 30px;
+        margin-left: 31px;
+    }
+    .W img {
+        width: 675px !important;
+        height: 488px;
+        accent-color: springgreen;
+    }
+
+    .social_icon ul {
+        position: absolute;
+        /* left: ; */
+        right: 0;
+        top: 19px;
+    }
+
+    /* ############### Footer  */
+    #footer-part {
+        padding: 120px 0;
+        background: #000000;
+    }
+
+    .footer-text p {
+        margin-top: -48px;
+    }
+    .footer-side-img {
+        position: absolute;
+        right: 423px;
+        top: 46px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo-img a {
+        transform: translate(6rem, 1rem);
+    }
+
+    #navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+    }
+
+    #navbarText {
+        background-color: #ffffff;
+        padding: 28px 20px;
+    }
+
+    .logo-img a img {
+        width: 486px;
+        height: 126px;
+    }
+    #navbar ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: all linear .2s;
+    }
+
+    .navbar-text {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        color: var(--bs-navbar-color);
+        padding-left: 135px;
+    }
+
+    #banner-part {
+        padding-bottom: 30px;
+        margin-left: 31px;
+    }
+    .W img {
+        width: 675px !important;
+        height: 488px;
+        accent-color: springgreen;
+    }
+
+    .social_icon ul {
+        position: absolute;
+        /* left: ; */
+        right: 0;
+        top: 19px;
+    }
+
+    /* ############### Footer  */
+    #footer-part {
+        padding: 120px 0;
+        background: #000000;
+    }
+
+    .footer-text p {
+        margin-top: -48px;
+    }
+    .footer-side-img {
+        position: absolute;
+        right: 310px;
+        top: 46px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo-img a {
+        transform: translate(6rem, 1rem);
+    }
+
+    #navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+    }
+
+    #navbarText {
+        background-color: #ffffff;
+        padding: 28px 20px;
+    }
+
+    .logo-img a img {
+        width: 311px;
+        height: 100px;
+    }
+
+    #navbar ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: all linear .2s;
+    }
+
+    .navbar-text {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        color: var(--bs-navbar-color);
+        padding-left: 135px;
+    }
+
+    #banner-part {
+        padding-bottom: 30px;
+        margin-left: 31px;
+    }
+    .W img {
+        width: 492px !important;
+        height: 421px;
+        accent-color: springgreen;
+    }
+
+    .social_icon ul {
+        position: absolute;
+        /* left: ; */
+        right: 0;
+        top: 19px;
+    }
+
+    /* ############### Footer  */
+    #footer-part {
+        padding: 120px 0;
+        background: #000000;
+    }
+
+    .footer-text p {
+        margin-top: -48px;
+    }
+
+    .footer-side-img {
+        position: absolute;
+        right: 215px;
+        top: 46px;
+    }
+}
+
+@media (max-width: 430.992px) {
+    .logo-img a {
+        transform: translate(6rem, 1rem);
+    }
+
+    #navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+    }
+
+    #navbarText {
+        background-color: #ffffff;
+        padding: 28px 20px;
+    }
+
+    .logo-img a img {
+        width: 170px;
+        height: 100px;
+    }
+
+    #navbar ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: all linear .2s;
+    }
+
+    .navbar-text {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        color: var(--bs-navbar-color);
+        padding-left: 135px;
+    }
+
+    #banner-part {
+        padding-bottom: 30px;
+        margin-left: 31px;
+    }
+
+    .W img {
+        width: 320px !important;
+        height: 265px;
+    }
+
+    .social_icon ul {
+        position: absolute;
+        /* left: ; */
+        right: 0;
+        top: 19px;
+    }
+
+    /* ############### Footer  */
+    #footer-part {
+        padding: 120px 0;
+        background: #000000;
+    }
+
+    .footer-text p {
+        margin-top: -48px;
+    }
+
+    .footer-side-img {
+        position: absolute;
+        right: 165px;
+        top: 47px;
+    }
+
+
+}
+
+
+@media (max-width: 393.852px) {
+    .logo-img a {
+        transform: translate(6rem, 1rem);
+    }
+
+    #navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+    }
+
+    #navbarText {
+        background-color: #ffffff;
+        padding: 28px 20px;
+    }
+
+    .logo-img a img {
+        width: 120px;
+        height: 100px;
+    }
+
+    #navbar ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: all linear .2s;
+    }
+
+    .navbar-text {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        color: var(--bs-navbar-color);
+        padding-left: 135px;
+    }
+
+    #banner-part {
+        padding-bottom: 30px;
+        margin-left: 31px;
+    }
+
+    .W img {
+        width: 320px !important;
+        height: 265px;
+    }
+
+    .social_icon ul {
+        position: absolute;
+        /* left: ; */
+        right: 0;
+        top: 19px;
+    }
+
+
+    /* ############### Footer  */
+    #footer-part {
+        padding: 120px 0;
+        background: #000000;
+    }
+
+    .footer-text p {
+        margin-top: -48px;
+    }
+
+    .footer-side-img {
+        position: absolute;
+        right: 139px;
+        top: 47px;
+    }
+
+}
+
+/* ##############  HOME RESPONSIVE START END ############## */

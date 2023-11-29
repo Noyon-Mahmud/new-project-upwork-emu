@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*===================================================
+                 Common css End  
+======================================================*/
+
+/* ##### NAVBER */
+.navbar-text a{
+    color: #f0f8ff;
+}
+.navbar-text a:hover{
+    color: #ffffff;
+}
+
+/* ############### SOCIAL ICON START */
+.about_color {
+    padding-top: 20px;
+}
+
+.about_color ul li a {
+    background: rgb(255, 255, 255) !important;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: #000000 !important;
+
+}
+
+.about_color ul {
+    float: right;
+}
+
+.about_color ul li {
+    padding: 0 5px;
+}
+/* ############### SOCIAL ICON END */
+
+.about_menu ul li a{
+        color: #858585;
+}
+.about_menu ul li a:hover{
+        color: #fff;
+}
+
+.about_text_part h3 {
+    color: #fff;
+    padding-bottom: 14px;
+}
+.about_text_part p{
+    padding-bottom: 50px;
+    color: #fff;
+    font-style: italic;
+}
